@@ -1,0 +1,17 @@
+{
+  "name": "devease-generate-build-server",
+  "version": "1.0.0",
+  "description": "This server is to generate build inside docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aman",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.577.0",
+    "ioredis": "^5.4.1",
+    "kafkajs": "^2.2.4",
+    "mime-types": "^2.1.35"
+  }
+}

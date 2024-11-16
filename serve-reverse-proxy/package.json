@@ -1,0 +1,17 @@
+{
+  "name": "serve-reverse-proxy",
+  "version": "1.0.0",
+  "description": "This is a reverse proxy server to serve/stream static files from aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node --env-file=.env index.js"
+  },
+  "author": "deployease",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy": "^1.18.1",
+    "serverless-offline": "^13.6.0"
+  }
+}

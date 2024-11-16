@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.spinner {
+    border-top-color: #3498db; /* Blue */
+    border-right-color: #e74c3c; /* Red */
+    border-bottom-color: #f1c40f; /* Yellow */
+    border-left-color: #2ecc71; /* Green */
+}
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.3); /* Adjust the opacity here */
+}
